@@ -1,8 +1,4 @@
-drop schema branas_cc cascade;
-
-create schema branas_cc;
-
-create table branas_cc.account (
+create table account (
 	account_id uuid primary key,
 	name text not null,
 	email text not null,
